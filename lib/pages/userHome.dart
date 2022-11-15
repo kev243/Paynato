@@ -16,11 +16,14 @@ class UserHome extends StatelessWidget {
           child: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 25.0),
-          child: Column(children: [
+          child: Column(
+             crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Column(
+                 
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
@@ -58,7 +61,25 @@ class UserHome extends StatelessWidget {
             SizedBox(height: 15),
             OptionUser(),
 
+           
+            
+  
+                  SizedBox(height: 25),
+                Text('Renvoyer',
+                style: TextStyle(
+                   fontSize: 22,
+                  ),
+               ) ,
+
+               Container(
+                height: 100,
+                width: 400,
+                color: Colors.black38,
+               )
+             
           ]),
+        
+          
         ),
       )),
     );

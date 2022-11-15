@@ -11,7 +11,7 @@ class OptionUser extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
             height: 84,
@@ -37,7 +37,7 @@ class OptionUser extends StatelessWidget {
             child: Column(
              mainAxisAlignment: MainAxisAlignment.center,
              children: [
-                 Icon(Iconsax.card),
+                 Icon(Iconsax.wallet),
                   SizedBox(height: 4),
                Text('Payer')
              ],
