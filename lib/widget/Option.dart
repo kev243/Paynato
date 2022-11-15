@@ -21,6 +21,8 @@ class OptionUser extends StatelessWidget {
             child: Column(
              mainAxisAlignment: MainAxisAlignment.center,
              children: [
+               Icon(Iconsax.send_14),
+                SizedBox(height: 4),
                Text('Envoyer')
              ],
             ),
@@ -35,6 +37,8 @@ class OptionUser extends StatelessWidget {
             child: Column(
              mainAxisAlignment: MainAxisAlignment.center,
              children: [
+                 Icon(Iconsax.card),
+                  SizedBox(height: 4),
                Text('Payer')
              ],
             ),
@@ -48,6 +52,9 @@ class OptionUser extends StatelessWidget {
             child: Column(
              mainAxisAlignment: MainAxisAlignment.center,
              children: [
+
+              Icon(Iconsax.import),
+               SizedBox(height: 4),
                Text('Demander')
              ],
             ),
